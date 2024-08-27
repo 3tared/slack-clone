@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# 3tared's Slack Clone
+
+Welcome to **3tared's Slack Clone**! This project is packed with features designed to make collaboration and communication seamless, intuitive, and efficient.
+
+## Key Features
+
+- **📡 Real-time Communication**: Experience instantaneous messaging with no delays.
+- **👍 Reactions to Messages**: React to messages with a variety of emojis to express yourself quickly.
+- **🧵 Threads / Replies System**: Organize conversations neatly with threaded messages and replies.
+- **✏️ Editing Messages**: Edit your messages after sending to correct mistakes or update content.
+- **🗑️ Deleting Messages**: Remove messages that are no longer needed or were sent in error.
+- **🔐 Role-Based Access Control**: Assign roles and permissions to manage access and maintain security.
+- **🖼️ Image Attachments**: Share images easily within the conversation.
+- **🔒 Authentication with Next Auth v5**: Secure and reliable authentication system to protect user data.
+- **📺 Channel Creation**: Create channels for focused discussions and team collaboration.
+- **🏢 Workspace Creation**: Set up workspaces to manage different teams or projects.
+- **✉️ Invite System / Invite Codes**: Invite users to join with simple invite codes.
+- **💬 Direct Messaging**: Private messaging feature for one-on-one conversations.
+- **👥 User Profiles**: Customize user profiles with relevant information.
+- **⚛️ Framework: Next.js 14**: Built on the powerful and flexible Next.js framework.
+- **🚀 Deployment on Vercel**: Deployed and managed on Vercel for smooth operation.
+- **🎨 UI Design with Shadcn UI & Tailwind CSS**: Beautiful and responsive user interface design.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, clone the repository and follow the installation instructions below.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you have the following installed:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Node.js** (v18 or later)
+- **Bun** (v0.3.0 or later)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+\`\`\`bash
+git clone https://github.com/3tared/slack-clone.git
+\`\`\`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Navigate to the project directory:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+\`\`\`bash
+cd slack-clone
+\`\`\`
 
-## Deploy on Vercel
+Install dependencies using Bun:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+\`\`\`bash
+bun install
+\`\`\`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Running the Project
+
+Start the development server with:
+
+\`\`\`bash
+bun run dev
+\`\`\`
+
+The project will be available at [http://localhost:3000](http://localhost:3000).
+
+### Deployment
+
+Deploy your project on Vercel with just a few clicks:
+
+1. Push your project to GitHub.
+2. Link the repository to your Vercel account.
+3. Deploy!
+
+## Contributing
+
+We welcome contributions to this project! Please fork the repository and submit a pull request for review.
